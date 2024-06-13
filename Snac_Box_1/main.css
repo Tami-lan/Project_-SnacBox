@@ -1,0 +1,11 @@
+#navbar{
+    float: left;
+}
+
+#nav1{
+background-color: black;
+color: white;
+}
+li{
+    list-style: none;
+}
