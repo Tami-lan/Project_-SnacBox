@@ -9,3 +9,8 @@ color: white;
 li{
     list-style: none;
 }
+
+article{
+    background-color: rgb(51, 49, 49);
+    color: white; 
+}
