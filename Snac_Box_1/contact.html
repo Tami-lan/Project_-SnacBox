@@ -23,7 +23,20 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
-                <li><a href="#orderonline">Order Online</a></li>
+                <li>
+                    <aside>
+                        <details>
+
+                            <Summary><a href="order.html">Order Online</a></Summary>
+                            <ul>
+                                <li><a href="#sweets">Sweets</a></li>
+                                <li><a href="#fried"> DeepFried Snacks</a></li>
+                                <li><a href="#cake">Cakes</a></li>
+                                <li><a href="#millet">Millet Snacks</a></li>
+                            </ul>
+                        </details>
+                    </aside>
+                </li>
                 <li><a href="#faq">FAQ</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
@@ -50,10 +63,32 @@
         <address>SnacBox.com</address>
         </p>
         <h1>Contact Us / Bulk Orders</h1>
+        <form action="https://httpbin.org/post" method="post">
+            <fieldset>
+                <legend>Please Fill the form to serve you better</legend><br>
+                <label for="name">Your name:</label>
+                <input type="text" name="name" id="name" required placeholder="eg:Arun">
+                &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="email">Your Email:</label>
+                <input type="email" name="email" id="email" required placeholder="eg:arun@xxx.com">
 
 
+                <p>
+                    <label for="phoneno">Phone Number:</label>
+                    <input type="tel" name="PhoneNo" id="phoneno" required placeholder="eg:9056790786"
+                        pattern="[0-9]{10}">
+                </p>
 
+                <label for="message">Your Message:</label>
+                <p>
+                    <textarea name="Message" id="message" cols="50" rows="15" placeholder="Write Feedback about Us"
+                        required></textarea>
+                </p>
 
+                <button type="submit">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="reset">Reset</button>
+            </fieldset>
+        </form>
     </main>
 
     <hr>
