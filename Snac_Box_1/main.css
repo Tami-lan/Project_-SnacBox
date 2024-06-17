@@ -14,3 +14,12 @@ article{
     background-color: rgb(51, 49, 49);
     color: white; 
 }
+
+#menu{
+    background-color: white;
+    color: black;
+}
+table, th, td, tr, caption{
+    background-color: yellow;
+    border: solid black 2px;
+}
